@@ -1,0 +1,46 @@
+#include<stdio.h>
+#define MAX 10
+int top = -1;
+int stack[MAX];
+
+int main()
+{
+  int value,choice;
+
+  printf(
+'
+   while(1)
+{
+     printf("1.PUSH\n");
+     printf("2.DISPLAY\n");
+     printf("3.POP\n");
+     printf("4.exit\n");
+     printf("ENTER THE CHOICE");
+     scanf("%d",choice)
+
+     switch(choice)
+{
+     case 1:
+             printf("Enter the value");
+             scanf("%d",value);
+               PUSH(value);
+               break;
+
+     case 2:
+             display();
+             break;
+     case 3:
+             value= POP();
+             break;
+
+      case 4:
+              exit();
+
+       default:
+		printf("invalid choice please enter valid choice"\n);
+ 
+
+
+
+            
+
